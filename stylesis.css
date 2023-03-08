@@ -1,6 +1,6 @@
 h1 {
     font-size:22px;
-    color: orange;
+    color: #FE7D4e;
     font-weight:normal;
 }
 .h1color h1{
@@ -16,8 +16,8 @@ h1 {
 .button {
     display: flex;
    display: inline-block;
-   border-radius: 4px;
-   background-color: orange;
+   border-radius: 12px;
+   background-color:  #FE7D4E;
    padding: 20px;
    width: 200px;
    color: #ffffff;
@@ -31,42 +31,45 @@ h1 {
 .services-text{
     color: #ffffff;
     position: absolute;
-    top: 50%;
+    top: 30%;
     padding: 20px;
     right: 20%;
-    font-size: 70px;
+    font-size: 30px;
     
 }
 .services-books{
     display: flex;
     justify-content: space-evenly;
-    background: bisque;
+    background: #fff7f3;
 }
 #div1{
     
-    width: 2300px;
+    width: 3000px;
     height: 200px;
-    background-color: bisque;
+    background-color: #fff7f3;
+    font-size: 40px;
+    vertical-align: bottom;
+   display: table-cell;
 }
 #div2{
-    width: 2400px;
+    width: 1600px;
     height: 200px;
-    background-color: bisque;
+    background-color: #fff7f3;
 }
 #div3{
-    width: 3800px;
+    width: 1600px;
     height: 200px;
-    background-color: bisque;
+    background-color: #fff7f3;
 }
 #div4{
-    width: 3500px;
+    width: 1600px;
     height: 200px;
-    background-color: bisque;
+    background-color: #fff7f3;
 }
 #div5{
-    width: 3500px;
+    width: 1600px;
     height: 200px;
-    background-color: bisque;
+    background-color: #fff7f3;
 }
 .container {
     position: relative;
@@ -82,27 +85,28 @@ h1 {
   .container .btn {
     position: absolute;
     top: 50%;
-    left: 400%;
+    left: 210%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: orange;
+    background-color: #FE7D4E;
     color: white;
-    font-size: 16px;
+    font-size: 60px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
     text-align: center;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.3)
   }
   #div6{
-    width: 1200px;
+    width: 2000px;
     height: 600px;
     text-align: center;
     padding: 10px;
     font-size: 20px;
 }
 #div7{
-    width: 1200px;
+    width: 2000px;
     height: 600px;
     text-align: center;
     padding: 10px;
@@ -114,4 +118,27 @@ h1 {
 }
 footer{
     display: flex;
+}
+#div9{
+    width: 1700px;
+    height: 1000px;
+    background-color: #FEFDF9;
+    font-size: 40px;
+    text-align: center;
+    
+}
+#div10{
+    width: 2050px;
+    height: 1000px;
+    background-color: #FEF2F2;
+}
+.monthbook{
+    display: flex;
+    text-align: center;
+}
+h5{
+    float:right;
+}
+h6{
+    float:left;
 }
